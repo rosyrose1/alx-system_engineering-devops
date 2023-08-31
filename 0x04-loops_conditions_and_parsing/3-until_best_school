@@ -1,0 +1,9 @@
+#!/usr/env bash
+# a script that displays "Best School" using an until loop
+tally=0
+
+until [ $tally -eq 10 ]
+do
+	echo "Best School"
+	(( tally++ ))
+done
