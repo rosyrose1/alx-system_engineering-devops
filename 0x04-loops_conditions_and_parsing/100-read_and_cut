@@ -1,6 +1,6 @@
-# #!/usr/bin/env bash
-# script that displays the content of the file /etc/passwd
-# and should display on id,username,home directory path for the user
+#!/usr/bin/env bash
+# This script displays the content of the file /etc/passwd.
+# and should only display id,username,home path directory
 
 while IFS=: read -r user
 do
