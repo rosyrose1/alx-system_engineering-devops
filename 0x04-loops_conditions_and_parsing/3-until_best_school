@@ -1,9 +1,9 @@
-#!/usr/env bash
-# a script that displays "Best School" using an until loop
-tally=0
+#!/usr/bin/env bash
+# a script that displays "Best School" 10 times using an until loop
 
-until [ $tally -eq 10 ]
+counter=0
+until [ $counter == 10 ]
 do
-	echo "Best School"
-	(( tally++ ))
+    echo "Best School"
+    ((counter++))
 done
