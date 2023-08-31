@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Displays the contents of the current directory in list format
-# where only the part of the name after the first dash is displayed. 
+# where only the part of the name after the first dash is displayed.
 
 list=$(ls)
 for a in $list; do
