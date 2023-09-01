@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#
 # managing manage_my_process
 
 if [[ "$1" == "start" ]]
