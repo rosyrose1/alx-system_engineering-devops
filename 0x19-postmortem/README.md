@@ -7,6 +7,7 @@ Issue Summary:
 
 Duration: December 11, 2023
 Impact: The Nginx web server was running as the root user, posing a security risk. The goal was to reconfigure it to run as the less privileged nginx user.
+
 Timeline:
 
 Identification: Detected during a routine security audit that revealed the Nginx process running as the root user.
@@ -31,9 +32,9 @@ Training and Awareness: Conduct training sessions for the team to raise awarenes
 
 1-run_nginx_as_nginx Bash Script:
 
-Updated Nginx configuration to run as nginx user.
-Ensured Nginx listened on all active IPs on port 8080.
-Restarted Nginx to apply changes.
+-Updated Nginx configuration to run as nginx user.
+-Ensured Nginx listened on all active IPs on port 8080.
+-Restarted Nginx to apply changes.
 
 
 
