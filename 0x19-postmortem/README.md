@@ -33,4 +33,4 @@ Updated Nginx configuration to run as nginx user.
 Ensured Nginx listened on all active IPs on port 8080.
 Restarted Nginx to apply changes.
 
-"C:\Users\Dell\Desktop\nginx.png"                     
+                    
