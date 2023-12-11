@@ -1,6 +1,8 @@
 
 Postmortem: Web Stack Debugging Project
 
+![my image](./nginx-image.png)
+
 Issue Summary:
 
 Duration: December 11, 2023
@@ -32,5 +34,7 @@ Training and Awareness: Conduct training sessions for the team to raise awarenes
 Updated Nginx configuration to run as nginx user.
 Ensured Nginx listened on all active IPs on port 8080.
 Restarted Nginx to apply changes.
+
+
 
                     
