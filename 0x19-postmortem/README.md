@@ -34,6 +34,7 @@ Automated Configuration Checks: Implement automated checks for user configuratio
 Training and Awareness: Conduct training sessions for the team to raise awareness about the importance of running processes with the least necessary privileges. This includes understanding the potential risks associated with running processes as the root user.
 
 1-run_nginx_as_nginx Bash Script:
+
 Updated Nginx configuration to run as nginx user.
 Ensured Nginx listened on all active IPs on port 8080
 Restarted Nginx to apply changes.
