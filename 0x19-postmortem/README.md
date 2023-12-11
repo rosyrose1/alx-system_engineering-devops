@@ -32,9 +32,11 @@ Training and Awareness: Conduct training sessions for the team to raise awarenes
 
 1-run_nginx_as_nginx Bash Script:
 
+
 -Updated Nginx configuration to run as nginx user.
 -Ensured Nginx listened on all active IPs on port 8080.
 -Restarted Nginx to apply changes.
+
 
 
 
