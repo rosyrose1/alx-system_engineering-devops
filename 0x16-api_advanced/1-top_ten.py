@@ -4,7 +4,7 @@ import requests
 
 
 def top_ten(subreddit):
-    """Displays the titles of the top 10 hot posts 
+    """Displays the titles of the top 10 hot posts
     within a specified subreddit."""
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     headers = {
