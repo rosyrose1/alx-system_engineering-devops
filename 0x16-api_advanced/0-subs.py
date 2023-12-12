@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A function designed to retrieve information from subscribers 
+"""A function designed to retrieve information from subscribers
   within a specified Reddit subreddit.
 """
 import requests
