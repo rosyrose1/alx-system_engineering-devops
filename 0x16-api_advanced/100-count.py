@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-Displays number of occurrences of keywords
-in hot post titles (case-insensitive)
+Show number of occurrences of keywords in hot post titles (case-insensitive)
 """
 import re
 import requests
@@ -11,7 +10,7 @@ API = 'https://www.reddit.com/r/{}/hot.json'
 
 def count_words(subreddit, wordlist, nums=None, after=None):
     """
-    Query reddit for hot posts and display total occurrences of each keyword
+    Query reddit for hot posts and print total occurrences of each keyword
     """
     r = requests.get(
         API.format(subreddit),
